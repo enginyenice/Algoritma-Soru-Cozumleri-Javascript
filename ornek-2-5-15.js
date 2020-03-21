@@ -3,15 +3,15 @@
 * deger ile farkını bulan algoritma
 * */
 
-let Orjsayi = 1234
-let sayi = Orjsayi
+let Orjsayi = 1234;
+let sayi = Orjsayi;
 
-sayi -= parseInt((sayi / 1000)) * 1000
+sayi -= parseInt((sayi / 1000)) * 1000;
 //234
-let yuzlerBasamagi = parseInt(sayi / 100)
-sayi -= parseInt((sayi / 100))*100
-let birlerBasamagi = sayi - parseInt((sayi / 10))*10
-console.log(`${Orjsayi} sayisinin yuzler basamagi ${yuzlerBasamagi} birler basamagi ${birlerBasamagi}`)
+let yuzlerBasamagi = parseInt(sayi / 100);
+sayi -= parseInt((sayi / 100))*100;
+let birlerBasamagi = sayi - parseInt((sayi / 10))*10;
+console.log(`${Orjsayi} sayisinin yuzler basamagi ${yuzlerBasamagi} birler basamagi ${birlerBasamagi}`);
 console.log("Fark:" ,(yuzlerBasamagi % 3) - birlerBasamagi)
 
 

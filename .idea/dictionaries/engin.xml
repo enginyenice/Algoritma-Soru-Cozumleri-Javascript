@@ -2,9 +2,13 @@
   <dictionary name="engin">
     <words>
       <w>adet</w>
+      <w>birler</w>
+      <w>fark</w>
       <w>girilen</w>
       <w>hesapla</w>
+      <w>orjsayi</w>
       <w>ortalama</w>
+      <w>sayi</w>
       <w>toplam</w>
     </words>
   </dictionary>
