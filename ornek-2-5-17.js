@@ -1,5 +1,5 @@
 /**
- * Ondalikli kısmı iki haneli girilen pozitif bir rasyonel sayinin ondalikli kısmındaki sayı degerlerinin bir tam kare olup
+ * Ondalikli kısmı iki haneli girilen pozitif bir rasyonel sayinin tam kısmındaki sayı degerlerinin bir tam kare olup
  * olmadıgını arastır
  */
 let sayi = 17.123
